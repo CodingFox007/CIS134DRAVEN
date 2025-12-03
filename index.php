@@ -19,12 +19,17 @@
         <div class="text-center text-lg pb-6">
             Current Time: <?php echo date("h:i:s A") ; ?>
         </div> 
-        <!-- Navigation Links -->
-        <div class="text-center gap-4 grid grid-rows-3 text-xl pb-10 sm:grid-cols-3">    
-            <a class="border-2 bg-[#5E8C61] hover:drop-shadow-md p-4" href="index.php">Homepage</a>
-            <a class="border-2 bg-[#5E8C61] hover:drop-shadow-md p-4" href="#">Contact Us</a>
-            <a class="border-2 bg-[#5E8C61] hover:drop-shadow-md p-4" href="#">Shop</a>
-        </div> 
+	    <!-- Navigation Links -->
+	    <div class="text-center gap-4 grid grid-rows-3 text-xl pb-10 sm:grid-cols-3">
+    	    <?php
+        	    $navCaptions = array("Homepage", "Contact Us", "Shop");
+        	    $navLinks    = array("index.php", "#", "products.php");
+
+        	    for ($i = 0; $i < count($navCaptions); $i++) {
+            	    echo '<a class="border-2 bg-[#5E8C61] hover:drop-shadow-md p-4" 
+                     	    href="' . $navLinks[$i] . '">' . $navCaptions[$i] . '</a>';
+            }
+    ?>
     </div>
 </body>
 </html>

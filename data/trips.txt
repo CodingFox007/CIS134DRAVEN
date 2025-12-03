@@ -1,0 +1,5 @@
+2018-05-18;Spain;9;Barcelona, Valencia, Seville, Madrid
+2018-05-24;Gibraltar;1;Went inside the rock of Gibraltar
+2018-05-27;Portugal;2;Lisbon
+2017-05-15;New Zealand;4;North Island, Rotorua, Auckland, Hobbit Film Set
+2017-05-19;Australia;9;Sydney, Opera house, Bridge walk, Cairns, Great Barrier Reef
